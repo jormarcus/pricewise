@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Searchbar from './components/Searchbar';
-import HeroCarousel from './components/HeroCarousel';
+import Searchbar from '../components/Searchbar';
+import HeroCarousel from '../components/HeroCarousel';
 
 export default function Home() {
   return (
