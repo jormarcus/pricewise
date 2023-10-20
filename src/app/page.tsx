@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Searchbar from './components/SearchBar';
+import Searchbar from './components/Searchbar';
 
 export default function Home() {
   return (
@@ -16,14 +16,17 @@ export default function Home() {
                 height={16}
               />
             </p>
+
             <h1 className="head-text">
-              Unleash the Power of
+              Unleash the Power of{' '}
               <span className="text-primary">PriceWise</span>
             </h1>
+
             <p className="mt-6">
               Powerful, self-serve product and growth analytics to help you
               convert, engage, and retain more.
             </p>
+
             <Searchbar />
           </div>
           HeroCarousel
