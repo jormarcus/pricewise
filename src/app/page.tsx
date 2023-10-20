@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Searchbar from './components/Searchbar';
+import HeroCarousel from './components/HeroCarousel';
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
 
             <Searchbar />
           </div>
-          HeroCarousel
+          <HeroCarousel />
         </div>
       </section>
       <section className="trending-section">
